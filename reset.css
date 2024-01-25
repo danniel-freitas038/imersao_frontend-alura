@@ -1,0 +1,48 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul, ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* Remove default padding */
+blockquote, p, figure {
+    padding: 0;
+}
+
+/* Set default font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove border on images inside links */
+img {
+    border-style: none;
+}
+
+/* Reset other styles that may be inherited */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Override styles only if needed */
+/* For example, you might want to set a margin on the body element */
+/*
+body {
+    margin: 20px;
+}
+*/
